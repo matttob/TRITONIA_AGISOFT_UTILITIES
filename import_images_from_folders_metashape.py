@@ -4,7 +4,9 @@ from pathlib import Path
 # create list of image file names
 
 # Enter path of highest tier of video files directory structure
-video_files_highest_directory = Path(r"C:\Users\Pamela\Desktop\TEST")
+video_files_highest_directory = Metashape.app.getExistingDirectory("Specify folder with input photos:")
+video_files_highest_directory += "/"
+video_files_highest_directory=Path(video_files_highest_directory)
 # Search in all sub directories for any files with .mpg extension and create list of full file paths for each video file
 video_file_paths = [str(pp) for pp in video_files_highest_directory.glob("**/*.mpg")]
 
