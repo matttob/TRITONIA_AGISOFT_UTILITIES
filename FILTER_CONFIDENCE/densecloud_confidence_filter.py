@@ -7,4 +7,3 @@ for chunk in Metashape.app.document.chunks:
     chunk.dense_cloud.resetFilters() #resets filters to show remaining points
 
 
-# test change    
