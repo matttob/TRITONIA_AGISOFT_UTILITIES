@@ -10,8 +10,9 @@ The following flowchart presents a workflow to transform raw video files into mo
 ## Preparing Images 
 #### disable_low_quality_images.py
 Disables images in all chunks less than a stated value
-#### auto_maksing.py (TO DO)
-Currently this reads in a single mask in image format and applies this mask to all images in all chunks
+#### apply_mask_to_all_chunks.py
+This reads in a single mask in image format and applies this mask to all images in all chunks
+#### auto_maksing_object_interference.py (TO DO)
 ## Align Photos
 #### align_photos.py 
 #### optimise_cameras.py
