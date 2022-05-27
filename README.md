@@ -25,14 +25,14 @@ Removes points based on the projection accuracy level outlined in the SOP
 #### reperr_gradual_selection.py
 Removes points based on the reprojection error level outlined in the SOP
 ## Build Dense Cloud 
-#### build_densecloud.py (TO DO)
+#### build_densecloud.py 
 #### densecloud_confidence_filter.py
 Removes points based on the densecloud point confidence outlined in the SOP
 ## Build Mesh 
-#### build_mesh.py (TO DO)
+#### build_mesh.py 
 ## Build Texture
-#### build.texture.py (TO DO)
+#### build.texture.py 
 ## Build DEM
-#### build_dem.py (TO DO)
+#### build_dem.py 
 ## Export model 
 #### export_model (TO DO)
