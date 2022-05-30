@@ -15,24 +15,29 @@ This reads in a single mask in image format and applies this mask to all images 
 #### auto_maksing_object_interference.py (TO DO)
 ## Align Photos
 #### align_photos.py 
+Aligns photos in all chunks according to the parameters stated in the SOP
 #### optimise_cameras.py
-Optimises camera alignment with default settings 
+Optimises camera alignment with default settings for all chunks 
 ## Gradual Selection
 #### recunc_gradual_selection.py
-Removes points based on the reconstruction uncertainty level outlined in the SOP
+Removes points based on the reconstruction uncertainty level outlined in the SOP for tie point clouds in all chunks
 #### projacc_gradual_selection.py
-Removes points based on the projection accuracy level outlined in the SOP
+Removes points based on the projection accuracy level outlined in the SOP for tie point clouds in all chunks
 #### reperr_gradual_selection.py
-Removes points based on the reprojection error level outlined in the SOP
+Removes points based on the reprojection error level outlined in the SOP for tie point clouds in all chunks
 ## Build Dense Cloud 
 #### build_densecloud.py 
+Builds denseclouds in all chunks according to the parameters stated in the SOP
 #### densecloud_confidence_filter.py
-Removes points based on the densecloud point confidence outlined in the SOP
+Removes points based on the densecloud point confidence outlined in the SOP for tie point clouds in all chunks
 ## Build Mesh 
+Builds mesh in all chunks according to the parameters stated in the SOP
 #### build_mesh.py 
 ## Build Texture
 #### build.texture.py 
+Builds texture in all chunks according to the parameters stated in the SOP
 ## Build DEM
 #### build_dem.py 
+Builds DEM in all chunks according to the parameters stated in the SOP
 ## Export model 
 #### export_model (TO DO)
