@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Define target removed points percentage 
 target_percentage = 0.499
 # define number of recunc error iteration steps
-number_of_err_steps = 10
+number_of_err_steps = 50
 
 
 # loop through all of the available chunks in the model

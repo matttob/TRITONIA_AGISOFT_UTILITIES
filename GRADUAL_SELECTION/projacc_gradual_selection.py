@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 # Define target removed points percentage 
 target_percentage = 0.499
 # define number of projacc error iteration steps
-number_of_err_steps = 100
+number_of_err_steps = 50
 
 
 # loop through all of the available chunks in the model
@@ -52,4 +52,4 @@ for chunk in Metashape.app.document.chunks:
 
     # print(percent_selecteds_less_than_half[rep_cunc_half_points_selected_ind])
     print("Percentage of total points removed based on Projection Accuracy = " + str((percent_selecteds_less_than_half[rep_cunc_half_points_selected_ind])*100) + "%")
-    #Testing push 
+    
