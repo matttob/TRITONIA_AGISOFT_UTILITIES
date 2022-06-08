@@ -1,0 +1,4 @@
+
+import numpy
+a = numpy.zeros(shape=(5,2))
+print(a)
