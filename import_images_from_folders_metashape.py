@@ -13,10 +13,11 @@ video_file_paths = [str(pp) for pp in video_files_highest_directory.glob("**/*.m
 # loop thogh each directoty that contains a video file and find the 'FRAMES' directory  within that make a list of the full path names of each image and imort into agisoft
 for image_directories in video_file_paths:
     image_file_path = image_directories.split('\\')
-    cropped_image_folder = ('\\'.join(map(str, image_file_path[0:-1])) + '\\' + 'FRAMES')
-    image_direcroty = Path(cropped_image_folder)
+    cropped_image_folder = ('/'.join(map(str, image_file_path[0:-1])))
+    image_direcroty = ([ f.path for f in os.scandir(cropped_image_folder) if f.is_dir() ])
+    image_direcroty = Path(image_direcroty[0])
     image_file_paths = [str(pp) for pp in image_direcroty.glob("**/*.jpg")]
-    print(image_file_path[-1])
+
 
     doc = Metashape.app.document
     chunk = doc.addChunk()
