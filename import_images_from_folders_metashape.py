@@ -4,7 +4,7 @@ import os
 # create list of image file names
 
 # Enter path of highest tier of video files directory structure
-video_files_highest_directory = Metashape.app.getExistingDirectory("W:\CHEVRON")
+video_files_highest_directory = Metashape.app.getExistingDirectory("Choose starting folder from which to search for video files")
 video_files_highest_directory += "/"
 video_files_highest_directory=Path(video_files_highest_directory)
 # Search in all sub directories for any files with .mpg extension and create list of full file paths for each video file
