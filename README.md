@@ -3,7 +3,8 @@
 The photogrammetry workflow is based upon the Tritonia Scientific LTD Photogrammetry SOP, which has been curated from the USGS 'Processing Coastal Imagery with Agisoft Metashape Professional Edition, Version 1.6 — Structure From Motion Workflow Documentation'. 
 
 The following flowchart presents a workflow to transform raw video files into models with minimal interaction with the Agiosft GUI
-(https://user-images.githubusercontent.com/93919314/174622446-00911c5e-ce70-41b8-abf0-d5af43e26ee6.png)
+(https://user-images.githubusercontent.com/93919314/175054213-fabad2ed-1f77-41f9-882c-b9d6a67adcb6.png)
+
 
 ## Extracting and Importing Frames
 #### rov_video_frame_extraction.ipynb
