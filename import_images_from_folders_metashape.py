@@ -18,6 +18,8 @@ for video_file_names in video_file_paths:
     directory_containing_video_files = ('/'.join(map(str, split_video_file_path[0:-1])))
     
     image_direcroties = ([ f.path for f in os.scandir(directory_containing_video_files) if f.is_dir() ])
+    
+    chunk_count = 1
     # loop through all subdirectories
     for video_file_sub_names in image_direcroties:
         image_direcroty = Path(video_file_sub_names)
@@ -27,7 +29,8 @@ for video_file_names in video_file_paths:
         
         doc = Metashape.app.document
         chunk = doc.addChunk()
-        chunk.label = video_file_sub_names.split('\\')[-1]
+        chunk.label = str(chunk_count) + '_' + video_file_sub_names.split('\\')[-1]
 
         chunk.addPhotos(image_file_paths)
         Metashape.app.update()  
+        chunk_count +=1
