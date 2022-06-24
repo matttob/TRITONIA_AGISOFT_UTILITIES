@@ -1,5 +1,3 @@
-#can you see this change
-
 import Metashape
 from pathlib import Path
 import os
