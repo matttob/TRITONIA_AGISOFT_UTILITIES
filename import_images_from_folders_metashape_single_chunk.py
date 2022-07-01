@@ -18,8 +18,9 @@ chunk.label = video_files_highest_directory
 
 video_files_highest_directory=Path(video_files_highest_directory)
 # Search in all sub directories for any files with .mpg extension and create list of full file paths for each video file
-video_file_paths = [str(pp) for pp in video_files_highest_directory.glob("**/*.mpg")]
-
+video_file_paths_mpg = [str(pp) for pp in video_files_highest_directory.glob("**/*.mpg")]
+video_file_paths_asf = [str(pp) for pp in video_files_highest_directory.glob("**/*.asf")]
+video_file_paths = video_file_paths_mpg + video_file_paths_asf
 
 
 # loop thogh each directoty that contains a video file and find any sub direcrorires directory  within that make a list of the full path names of each image and imort into agisoft
