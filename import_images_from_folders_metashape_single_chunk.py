@@ -8,9 +8,9 @@ frame_interval = 2
 # create list of image file names
 
 # Enter path of highest tier of video files directory structure
-video_files_highest_directory = Metashape.app.getExistingDirectory("Choose starting folder from which to search for video files")
-video_files_highest_directory += "/"
-# video_files_highest_directory = r"W:\CHEVRON\AA_DONT_CHANGE_Chevron2022\71_15"
+# video_files_highest_directory = Metashape.app.getExistingDirectory("Choose starting folder from which to search for video files")
+# video_files_highest_directory += "/"
+video_files_highest_directory = r"W:\CHEVRON\AA_DONT_CHANGE_Chevron2022\GS-MIKE_FLARE"
 
 doc = Metashape.app.document
 chunk = doc.addChunk()
