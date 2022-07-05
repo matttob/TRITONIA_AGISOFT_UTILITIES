@@ -3,7 +3,7 @@ from pathlib import Path
 import os
 import sys
 
-frame_interval = 2
+frame_interval = 1
 
 # create list of image file names
 
