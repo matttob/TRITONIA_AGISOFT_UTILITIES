@@ -4,8 +4,7 @@ The photogrammetry workflow is based upon the Tritonia Scientific LTD Photogramm
 
 The following flowchart presents a workflow to transform raw video files into models with minimal interaction with the Agiosft GUI
 
-(https://user-images.githubusercontent.com/93919314/176168047-8a3255fc-d0b3-40d8-afa0-da0437e93d34.png)
-
+(https://user-images.githubusercontent.com/93919314/176914229-332246fc-fc07-4425-85a4-934d13a32c99.png)
 
 ## Extracting and Importing Frames
 #### rov_video_frame_extraction.ipynb
