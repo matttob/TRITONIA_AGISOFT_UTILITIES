@@ -1,5 +1,5 @@
 import Metashape
-mask_image_path = r"W:\CHEVRON\TRITONIA_AGISOFT_UTILITIES\rov_baner_mask_GS_MIKE.png"
+mask_image_path = r"W:\\CHEVRON\\TRITONIA_AGISOFT_UTILITIES\\rov_banner_mask_NUMBI_I.png"
 
 for chunk in Metashape.app.document.chunks:
 
