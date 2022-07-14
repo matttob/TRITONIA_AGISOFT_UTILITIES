@@ -30,7 +30,8 @@ for video_file_names in video_file_paths:
         doc = Metashape.app.document
         chunk = doc.addChunk()
         chunk.label = str(chunk_count) + '_' + video_file_sub_names.split('\\')[-1]
-
-        chunk.addPhotos(image_file_paths)
-        Metashape.app.update()  
-        chunk_count +=1
+        
+        if len(image_file_paths) > 10:
+            chunk.addPhotos(image_file_paths)
+            Metashape.app.update()  
+            chunk_count +=1
